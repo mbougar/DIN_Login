@@ -17,6 +17,7 @@ fun PasswordVisibilityToggleIcon(
     val contentDescription = if (showPassword) "Hide password icon" else "Show password icon"
 
     IconButton(onClick = onTogglePasswordVisibility) {
-        Icon(imageVector = image, contentDescription = contentDescription)
+        Icon(imageVector = image,
+            contentDescription = contentDescription)
     }
 }

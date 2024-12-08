@@ -1,9 +1,7 @@
 package com.es.din_login.ui.screens
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -18,6 +16,8 @@ fun SuccessScreen() {
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
-        Text("Login Successful", fontSize = 24.sp, fontWeight = FontWeight.Bold, color = Color.White)
+        Text("Login Successful", fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White)
     }
 }
